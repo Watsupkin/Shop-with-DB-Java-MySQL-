@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Авторизация</title>
+<style type="text/css">
+table {
+	text-align: center;
+	width: 50%;
+	height: 30%;
+	background: #99ff99;
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 5px;
+	border: 1px solid #000;
+}
+</style>
+
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+</head>
+<body>
+	<form action="Auth" method="post">
+	<table>
+		<tr>
+			<td>
+				<p>Login:</p> <input type="text" name="login">
+				<p>Pass:</p> <input type="text" name="pass"> <br> <br>
+				<input type="submit" value="Submit" /> <br> <br>
+				<a href="Registration">Или нажмите на ссылку для регистрации</a>
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
